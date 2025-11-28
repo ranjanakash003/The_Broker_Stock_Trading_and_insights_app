@@ -6,9 +6,9 @@ import UserDropdowm from "@/components/UserDropdowm";
 const Header = () => {
     return (
         <header className="sticky top-0 header">
-            <div className="contianer header-wrapper">
+            <div className="container header-wrapper">
                 <Link href="/">
-                    <Image src="/assets/icons/logo.svg" alt="Broker_logo" width={140} height={132}className="h-8 w-auto cursor-pointer" />
+                    <Image src="/assets/icons/logo.svg" alt="Broker_logo" width={140} height={132} className="h-8 w-auto cursor-pointer" />
                 </Link>
                 <nav className={"hidden sm:block"}>
                     <NavItems />
