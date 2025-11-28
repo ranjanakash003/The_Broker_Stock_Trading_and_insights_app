@@ -24,7 +24,7 @@ const UserDropdowm = () => {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
-                <Button variant={'ghost'} className={'flex items-center gap-3 text-gray-4 hover:text-yellow-500'}>
+                <Button variant={'ghost'} className={'flex items-center gap-3 text-gray-400 hover:text-yellow-500'}>
                     <Avatar className={'h-8 w-8'}>
                         <AvatarImage src="https://github.com/shadcn.png" />
                         <AvatarFallback className={'bg-yellow-500 text-yellow-900 text-sm font-bold'}>
@@ -55,12 +55,12 @@ const UserDropdowm = () => {
                         </div>
                     </div>
                 </DropdownMenuLabel>
-                <DropdownMenuSeparator className={'bg-grey-600'}/>
-                <DropdownMenuItem onClick={handleSignOut} className={'text-gray-100 text-md font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer'}>
+                <DropdownMenuSeparator className={'bg-gray-600'}/>
+                <DropdownMenuItem onClick={handleSignOut} className={'text-gray-100 text-base font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer'}>
                     <LogOut className={'h-4 w-4 mr-2 hidden sm:block'} />
                     LogOut
                 </DropdownMenuItem>
-                <DropdownMenuSeparator className={'hidden sm:block bg-grey-600'}/>
+                <DropdownMenuSeparator className={'hidden sm:block bg-gray-600'}/>
                 <nav className={'sm:hidden '}>
                     <NavItems />
                 </nav>
